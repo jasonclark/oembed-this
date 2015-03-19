@@ -40,9 +40,9 @@ if ($customScript[0] != 'none') {
 <div class="main">
 <main role="main">
 <h2 class="mainHeading">OembedThis: An Oembed Utility</h2>
-<p>This is a utility app built around an HTML form and PHP functions that check for an Oembed endpoint and returns HTML embed code for various popular web sites.
+<p>This is a utility app built around an HTML form and PHP functions that check for an Oembed endpoint and return HTML embed code for various popular web sites.
 </p>
-<p>To use it, find the URL of an item on web site. Pass the URL into the form to check for an Oembed service and get embed code. This is open data...</p>
+<p>To use it, find the URL of an item on a web site. Pass the URL into the form to check for an Oembed service and get embed code. This is open data...</p>
 <p>Currently supported sites include:</p>
 <ul>
   <li>codepen.io</li>
