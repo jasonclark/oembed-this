@@ -1,6 +1,6 @@
-## An Oembed Utility
+## OembedThis: An Oembed Utility
 
-This is a utility app built around an HTML form and PHP functions that check for an Oembed endpoint for various popular web sites.
+This is a utility app built around an HTML form and PHP functions that check for an Oembed endpoint and returns HTML embed code for various popular web sites.
 
 To use it, find the URL of an item on web site. Pass the URL into the form to check for an Oembed service and get embed code. This is open data...
 
