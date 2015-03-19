@@ -39,10 +39,29 @@ if ($customScript[0] != 'none') {
 </header>
 <div class="main">
 <main role="main">
-<h2 class="mainHeading">An Oembed Utility</h2>
-<p>This is a utility built around a PHP function that checks for an Oembed endpoint for various popular web sites.</p>
-<p>Currently supported sites include: codepen.io, dribbble.com, flickr.com, gty.im (getty.com), ifttt.com, instagram.com, kickstarter.com, slideshare.net, soundcloud.com, speakerdeck.com, ted.com, ustream.tv, vimeo.com, youtube.com.</p>
+<h2 class="mainHeading">OembedThis: An Oembed Utility</h2>
+<p>This is a utility app built around an HTML form and PHP functions that check for an Oembed endpoint and returns HTML embed code for various popular web sites.
+</p>
+<p>To use it, find the URL of an item on web site. Pass the URL into the form to check for an Oembed service and get embed code. This is open data...</p>
+<p>Currently supported sites include:</p>
+<ul>
+  <li>codepen.io</li>
+  <li>dribbble.com</li>
+  <li>flickr.com</li>
+  <li>gty.im (getty.com)</li>
+  <li>ifttt.com</li>
+  <li>instagram.com</li>
+  <li>kickstarter.com</li>
+  <li>slideshare.net</li>
+  <li>soundcloud.com</li>
+  <li>speakerdeck.com</li>
+  <li>ted.com</li>
+  <li>ustream.tv</li>
+  <li>vimeo.com</li>
+  <li>youtube.com</li>
+</ul>
 <p>If you know of more Oembed endpoints to add, let me know <a href="https://twitter.com/jaclark">@jaclark</a>.</p>
+
 </main>
 </div><!--end .main div-->
 <aside role="complementary">
