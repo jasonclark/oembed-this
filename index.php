@@ -66,14 +66,14 @@ if ($customScript[0] != 'none') {
 //turn on full error reports for development - REMOVE when in production
 //error_reporting(E_ALL);
 
-if (isset($_POST['passField']) && trim($_POST['passField']) != ''):
+if (isset($_REQUEST['passField']) && trim($_REQUEST['passField']) != ''):
 ?>
   <h2>Thanks for posting a general inquiry, ROBOT. Please, go die in a fire!</h2>
 <?php
-elseif (isset($_POST['submitCheck']) && $_POST['submitCheck'] == 1):
+elseif (isset($_REQUEST['submitCheck']) && $_REQUEST['submitCheck'] == 1):
 
 //set default value for URL
-$uri = isset($_POST['uri']) ? strip_tags($_POST['uri']) : null;
+$uri = isset($_REQUEST['uri']) ? strip_tags($_REQUEST['uri']) : null;
 ?>
 
 <h3>Hmmm... Thanks for trying out the URL at <a href="<?php echo $uri; ?>"><?php echo $uri; ?></a></h3>
