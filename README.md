@@ -23,4 +23,4 @@ Currently supported sites include:
 
 If you know of more Oembed endpoints to add, let me know [@jaclark](https://twitter.com/jaclark).
 
-Inspired by [Stanford Libraries work on oembed for digital collections] and [@adactio](https://twitter.com/adactio)'s [rants and code bits about the importance of Oembed](https://adactio.com/journal/4227).
+Inspired by [Stanford Libraries work on Oembed for digital collections](http://code4lib.org/conference/2015/keck) and [@adactio](https://twitter.com/adactio)'s [rants and code bits about the importance of Oembed](https://adactio.com/journal/4227).
