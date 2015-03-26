@@ -170,7 +170,7 @@ else:
   <script>(function () { var e = document.getElementById("access"); e.parentNode.removeChild(e); })();</script>
 </span>
 <fieldset>
-  <label for="name">Enter URL:</label>
+  <label for="uri">Enter URL:</label>
   <input title="Enter URL" type="text" name="uri" id="uri" placeholder="URL from youtube, flickr, instagram, etc..." autofocus />
   <button type="submit" class="button">Get Code</button>
 </fieldset>
