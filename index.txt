@@ -76,8 +76,8 @@ elseif (isset($_REQUEST['submitCheck']) && $_REQUEST['submitCheck'] == 1 || isse
 $uri = isset($_REQUEST['uri']) ? strip_tags($_REQUEST['uri']) : null;
 ?>
 
-  <h3>Hmmm... Thanks for trying out the URL at <a href="<?php echo $uri; ?>"><?php echo $uri; ?></a></h3>
-  <p>Here's what I found:</p>
+<h3>Hmmm... Thanks for trying out the URL at <a href="<?php echo $uri; ?>"><?php echo $uri; ?></a></h3>
+<p>Here's what I found:</p>
 
 <?php
 function getEmbedCode($url = "", $maxwidth = 320) {
@@ -98,14 +98,14 @@ function getEmbedCode($url = "", $maxwidth = 320) {
     //'github.com' => 'https://github.com/api/oembed',
     //'hulu.com' => 'http://www.hulu.com/api/oembed.json',
     'ifttt.com' => 'https://ifttt.com/oembed',
-    'instagram.com' => 'https://api.instagram.com/oembed',
+    'instagram.com' => 'https://api.instagram.com/oembed/',
     'kickstarter.com' => 'https://www.kickstarter.com/services/oembed',
     'slideshare.net' => 'http://www.slideshare.net/api/oembed/2',
     'soundcloud.com' => 'https://soundcloud.com/oembed',
     'speakerdeck.com' => 'https://speakerdeck.com/oembed.json',
     'ted.com' => 'https://www.ted.com/talks/oembed.json',
     'ustream.tv' => 'http://www.ustream.tv/oembed',
-    //'vine.co' => 'https://vine.co/oembed.json';
+    'vine.co' => 'https://vine.co/oembed.json',
     'vimeo.com' => 'https://vimeo.com/api/oembed.json',
     'youtube.com' => 'https://www.youtube.com/oembed'
   );
@@ -162,19 +162,19 @@ echo getEmbedCode($uri);
 
 else:
 ?>
-  <form method="post" action="<?php echo htmlentities(strip_tags(basename(__FILE__))); ?>">
-  <input type="hidden" name="submitCheck" value="1" />
-  <span id="access">
-    <label for="passField">omit field (bot test):</label>
-    <input id="passField" name="passField" type="text" autofill="off" />
-    <script>(function () { var e = document.getElementById("access"); e.parentNode.removeChild(e); })();</script>
-  </span>
-  <fieldset>
-    <label for="uri">Enter URL:</label>
-    <input title="Enter URL" type="text" name="uri" id="uri" placeholder="URL from youtube, flickr, instagram, etc..." autofocus />
-    <button type="submit" class="button">Get Code</button>
-  </fieldset>
-  </form>
+<form method="post" action="<?php echo htmlentities(strip_tags(basename(__FILE__))); ?>">
+<input type="hidden" name="submitCheck" value="1" />
+<span id="access">
+  <label for="passField">omit field (bot test):</label>
+  <input id="passField" name="passField" type="text" autofill="off" />
+  <script>(function () { var e = document.getElementById("access"); e.parentNode.removeChild(e); })();</script>
+</span>
+<fieldset>
+  <label for="uri">Enter URL:</label>
+  <input title="Enter URL" type="text" name="uri" id="uri" placeholder="URL from youtube, flickr, instagram, etc..." autofocus />
+  <button type="submit" class="button">Get Code</button>
+</fieldset>
+</form>
 <?php
 endif;
 ?>
