@@ -57,6 +57,7 @@ if ($customScript[0] != 'none') {
   <li>ted.com</li>
   <li>ustream.tv</li>
   <li>vimeo.com</li>
+  <li>vine.co</li>
   <li>youtube.com</li>
 </ul>
 <p>If you know of more Oembed endpoints to add, let me know <a href="https://twitter.com/jaclark">@jaclark</a>.</p>
