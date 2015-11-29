@@ -75,10 +75,8 @@ elseif (isset($_REQUEST['submitCheck']) && $_REQUEST['submitCheck'] == 1 || isse
 //set default value for URL
 $uri = isset($_REQUEST['uri']) ? strip_tags($_REQUEST['uri']) : null;
 ?>
-
 <h3>Hmmm... Thanks for trying out the URL at <a href="<?php echo $uri; ?>"><?php echo $uri; ?></a></h3>
 <p>Here's what I found:</p>
-
 <?php
 function getEmbedCode($url = "", $maxwidth = 320) {
 
@@ -159,7 +157,9 @@ function getEmbedCode($url = "", $maxwidth = 320) {
 }
 
 echo getEmbedCode($uri);
-
+?>
+<p class="control"><a href="<?php echo htmlentities(strip_tags(basename(__FILE__))); ?>" class="refresh">Reset</a></p>
+<?php
 else:
 ?>
 <form method="post" action="<?php echo htmlentities(strip_tags(basename(__FILE__))); ?>">
