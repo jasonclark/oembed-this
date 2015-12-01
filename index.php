@@ -24,29 +24,14 @@ $fileNameURI = htmlentities(strip_tags($_SERVER['REQUEST_URI']));
 <title><?php echo($pageTitle); ?> - jason a. clark</title>
 <meta name="description" content="Utility app built around an HTML form & PHP functions that check for an Oembed endpoint & return HTML embed code for various popular web sites."/>
 <!-- Social Media Tags -->
-<meta name="twitter:title" content="EmbedThis (Oembed)">
-<meta name="twitter:description" content="Utility app that checks for an Oembed endpoint & returns HTML embed code.">
-<meta name="twitter:image:src" content="<?php echo $protocol.$server.$path; ?>/meta/img/share-code-small.png">
-<meta name="twitter:url" content="<?php echo $protocol.$server.$path.'/'.$fileName; ?>">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@jaclark">
-<meta name="twitter:creator" content="@jaclark">
-<meta property="og:title" content="EmbedThis (Oembed)">
-<meta property="og:description" content="Utility app that checks for an Oembed endpoint & returns HTML embed code.">
-<meta property="og:image" content="<?php echo $protocol.$server.$path; ?>/meta/img/share-code-small.png">
-<meta property="og:url" content="<?php echo $protocol.$server.$path.'/'.$fileName; ?>">
-<meta property="og:type" content="website" />
-<meta property="og:site_name" content="Jason A. Clark's web site"/>
-
-<meta property="og:title" content="HTML5 Mobile Feed App"/>
-<meta property="og:description" content="A single page app using HTML5 markup, CSS3, &amp; Javascript APIs to create a mobile feed search/display as a teaching tool for HTML5 courses."/>
-<meta property="og:image" content="http://www.lib.montana.edu/~jason/meta/img/clark-share-default.png"/>
-<meta property="og:url" content="http://www.lib.montana.edu/~jason/files/html5-mobile-feed/"/>
+<meta property="og:title" content="EmbedThis (Oembed)"/>
+<meta property="og:description" content="Utility app that checks for an Oembed endpoint & returns HTML embed code."/>
+<meta property="og:image" content="<?php echo $protocol.$server.$path; ?>/meta/img/share-code-small.png"/>
+<meta property="og:url" content="<?php echo $protocol.$server.$path.'/'.$fileName; ?>"/>
 <meta property="og:type" content="website"/>
-<meta name="twitter:card" content="summary"/>
+<meta name="twitter:creator" property="og:site_name" content="@jaclark"/>
+<meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="http://www.jasonclark.info"/>
-<meta name="twitter:creator" content="@jaclark"/>
-
 <!-- End Social Media Tags -->
 <link rel="alternate" type="application/rss+xml" title="diginit - jason clark" href="http://feeds.feedburner.com/diginit" />
 <?php if ($customCSS != 'none') {
