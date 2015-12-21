@@ -86,6 +86,9 @@ function getEmbedCode($url = "", $maxwidth = 320) {
     'codepen.io' => 'http://codepen.io/api/oembed',
     'dribbble.com' => 'https://api.embed.ly/v1/api/oembed',
     'flickr.com' => 'https://www.flickr.com/services/oembed/',
+    //Facebook also allows video oembed - https://developers.facebook.com/docs/plugins/oembed-endpoints
+    //note: Facebook posts or videos must be public
+    'facebook.com' => 'https://www.facebook.com/plugins/post/oembed.json/',
     //note: getty needs short url pattern + asset id -> http://gty.im/[asset-id]
     'gty.im' => 'http://embed.gettyimages.com/oembed',
     //'github.com' => 'https://github.com/api/oembed',
@@ -111,7 +114,7 @@ function getEmbedCode($url = "", $maxwidth = 320) {
   }
 
   if (!$service) {
-    $message = 'Could not find an Oembed service endpoint.';
+    $message = 'Could not find an Oembed service endpoint. Note that Facebook requires posts or videos to be public.';
     return $message;
   }
 
@@ -143,7 +146,7 @@ function getEmbedCode($url = "", $maxwidth = 320) {
   }
 
   if (empty($response['type'])) {
-    $message = 'Oembed result not available for this service.';
+    $message = 'Oembed result not available for this service. Note that Facebook requires posts or videos to be public.';
     return $message;
   } else {
     return $embedResult;
@@ -166,7 +169,7 @@ else:
 </span>
 <fieldset>
   <label for="uri">Enter URL:</label>
-  <input title="Enter URL" type="text" name="uri" id="uri" placeholder="URL from youtube, flickr, instagram, etc..." autofocus />
+  <input title="Enter URL" type="text" name="uri" id="uri" placeholder="URL from youtube, facebook, flickr, instagram..." autofocus />
   <button type="submit" class="button">Get Code</button>
 </fieldset>
 </form>
