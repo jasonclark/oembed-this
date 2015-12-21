@@ -46,6 +46,7 @@ if ($customScript[0] != 'none') {
 <ul>
   <li>codepen.io</li>
   <li>dribbble.com</li>
+  <li>facebook.com</li>
   <li>flickr.com</li>
   <li>gty.im (getty.com)</li>
   <li>ifttt.com</li>
