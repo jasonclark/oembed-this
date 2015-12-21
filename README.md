@@ -8,6 +8,7 @@ Currently supported sites include:
 
 *   codepen.io
 *   dribbble.com
+*   facebook.com
 *   flickr.com
 *   gty.im (getty.com)
 *   ifttt.com
@@ -19,6 +20,7 @@ Currently supported sites include:
 *   ted.com
 *   ustream.tv
 *   vimeo.com
+*   vine.co
 *   youtube.com
 
 If you know of more Oembed endpoints to add, let me know [@jaclark](https://twitter.com/jaclark).
