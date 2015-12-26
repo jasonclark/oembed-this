@@ -31,7 +31,8 @@ Version:  screen,projection,handheld - October 2014
        url('../fonts/lato-v11-latin-italic.svg#Lato') format('svg'); /* Legacy iOS */
 }
 
-*,:before,:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+html {box-sizing:border-box;}
+*, *:before, *:after {box-sizing:inherit;margin:0;padding:0;}
 html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}
 body{font-size:small;font:20px/1.6 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;max-width:80%;margin:0 auto;padding:50px 25px;}
 html{background:url("../img/library-card-zoom-bg.jpg") no-repeat fixed bottom;background-position:center center;background-size:cover;color:#666;}
