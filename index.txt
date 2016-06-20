@@ -102,6 +102,7 @@ function getEmbedCode($url = "", $maxwidth = 320) {
     'speakerdeck.com' => 'https://speakerdeck.com/oembed.json',
     //'spotify.com' => 'https://embed.spotify.com/oembed/',
     'ted.com' => 'https://www.ted.com/talks/oembed.json',
+    'twitter.com' => 'https://publish.twitter.com/oembed',
     'ustream.tv' => 'http://www.ustream.tv/oembed',
     'vine.co' => 'https://vine.co/oembed.json',
     'vimeo.com' => 'https://vimeo.com/api/oembed.json',
