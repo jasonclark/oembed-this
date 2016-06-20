@@ -42,6 +42,7 @@ if ($customScript[0] != 'none') {
 <p>Source code here is the HTML, CSS, and PHP from the EmbedThis (Oembed) utility app.</p>
 <p><a href="index.txt" title="html markup and PHP for web app">HTML markup &amp; PHP for the EmbedThis (Oembed) utility app</a></p>
 <p><a href="master.txt" title="css rules and declarations for web app">CSS rules &amp; declarations for the EmbedThis (Oembed) utility app</a></p>
+<p><a href="https://github.com/jasonclark/oembed-this" title="github.com repo for oembed-this">Full code for the EmbedThis (Oembed) utility app on GitHub</a></p>
 </main>
 </div><!--end .main div-->
 <aside role="complementary">
