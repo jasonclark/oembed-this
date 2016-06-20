@@ -14,6 +14,7 @@ Currently supported sites include:
 *   ifttt.com
 *   instagram.com
 *   kickstarter.com
+*   meetup.com
 *   slideshare.net
 *   soundcloud.com
 *   speakerdeck.com
