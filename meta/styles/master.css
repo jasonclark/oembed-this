@@ -67,7 +67,7 @@ label{display:none;}
 .expand {background:url("../img/expand.gif") 0 50% no-repeat;padding-left:16px;}
 .refresh {background:url("../img/refresh.gif") 0 50% no-repeat;padding-left:18px;}
 
-/* phone and "phablet" styles */
+/* small and medium screen styles */
 @media only screen and (max-width: 768px) {
  body{padding:20px;max-width:100%;}
  main{min-height:250px;}
