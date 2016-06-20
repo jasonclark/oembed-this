@@ -19,6 +19,7 @@ Currently supported sites include:
 *   soundcloud.com
 *   speakerdeck.com
 *   ted.com
+*   twitter.com
 *   ustream.tv
 *   vimeo.com
 *   vine.co
