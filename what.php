@@ -57,6 +57,7 @@ if ($customScript[0] != 'none') {
   <li>soundcloud.com</li>
   <li>speakerdeck.com</li>
   <li>ted.com</li>
+  <li>twitter.com</li>
   <li>ustream.tv</li>
   <li>vimeo.com</li>
   <li>vine.co</li>
