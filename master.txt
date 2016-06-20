@@ -48,6 +48,7 @@ h3{display:inline;font-weight:700;font-size:20px;}
 p{margin:1rem 0;}
 table{font-size:inherit;font:100%;}
 pre,code,kbd,samp,tt{font-family:monospace;font-size:108%;line-height:100%;}
+pre{word-wrap:break-word;white-space:-moz-pre-wrap;white-space:pre-wrap;}
 a{outline:none;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none;display:inline-block;color:#777;position:relative;margin:0;padding:0;}
 a:hover{color:#f74f4f;}
 aside a{margin:0 .25rem;padding:0 .25rem;}
