@@ -16,6 +16,7 @@ Currently supported sites include:
 *   kickstarter.com
 *   meetup.com
 *   nytimes.com
+*   reddit.com
 *   slideshare.net
 *   soundcloud.com
 *   speakerdeck.com
