@@ -97,6 +97,7 @@ function getEmbedCode($url = "", $maxwidth = 320) {
     'instagram.com' => 'https://api.instagram.com/oembed/',
     'kickstarter.com' => 'https://www.kickstarter.com/services/oembed',
     'meetup.com' => 'https://api.meetup.com/oembed',
+    'nytimes.com' => 'https://www.nytimes.com/svc/oembed/json/',
     'slideshare.net' => 'http://www.slideshare.net/api/oembed/2',
     'soundcloud.com' => 'https://soundcloud.com/oembed',
     'speakerdeck.com' => 'https://speakerdeck.com/oembed.json',
