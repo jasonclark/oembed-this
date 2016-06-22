@@ -15,6 +15,7 @@ Currently supported sites include:
 *   instagram.com
 *   kickstarter.com
 *   meetup.com
+*   nytimes.com
 *   slideshare.net
 *   soundcloud.com
 *   speakerdeck.com
