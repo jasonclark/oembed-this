@@ -54,6 +54,7 @@ if ($customScript[0] != 'none') {
   <li>kickstarter.com</li>
   <li>meetup.com</li>
   <li>nytimes.com</li>
+  <li>reddit.com</li>
   <li>slideshare.net</li>
   <li>soundcloud.com</li>
   <li>speakerdeck.com</li>
