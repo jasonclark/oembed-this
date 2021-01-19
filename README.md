@@ -10,6 +10,7 @@ Currently supported sites include:
 *   dribbble.com
 *   facebook.com
 *   flickr.com
+*   giphy.com
 *   gty.im (getty.com)
 *   ifttt.com
 *   instagram.com
@@ -21,6 +22,7 @@ Currently supported sites include:
 *   soundcloud.com
 *   speakerdeck.com
 *   ted.com
+*   tiktok.com
 *   twitter.com
 *   ustream.tv
 *   vimeo.com
