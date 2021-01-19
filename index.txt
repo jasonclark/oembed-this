@@ -81,20 +81,21 @@ function getEmbedCode($url = "", $maxwidth = 320) {
     $url = 'http://'.substr($url, 8);
     //echo $url;
   }
-
+  //sources available from https://oembed.com/providers.json
   $sources = array(
     'codepen.io' => 'http://codepen.io/api/oembed',
     'dribbble.com' => 'https://api.embed.ly/v1/api/oembed',
     'flickr.com' => 'https://www.flickr.com/services/oembed/',
     //Facebook also allows video oembed - https://developers.facebook.com/docs/plugins/oembed-endpoints
     //note: Facebook posts or videos must be public
-    'facebook.com' => 'https://www.facebook.com/plugins/post/oembed.json/',
+    'facebook.com' => 'https://graph.facebook.com/v8.0/oembed_post',
+    'giphy.com' => 'https://giphy.com/services/oembed',
     //note: getty needs short url pattern + asset id -> http://gty.im/[asset-id]
     'gty.im' => 'http://embed.gettyimages.com/oembed',
     //'github.com' => 'https://github.com/api/oembed',
     //'hulu.com' => 'http://www.hulu.com/api/oembed.json',
     'ifttt.com' => 'https://ifttt.com/oembed',
-    'instagram.com' => 'https://api.instagram.com/oembed/',
+    'instagram.com' => 'https://graph.facebook.com/v8.0/instagram_oembed',
     'kickstarter.com' => 'https://www.kickstarter.com/services/oembed',
     'meetup.com' => 'https://api.meetup.com/oembed',
     'nytimes.com' => 'https://www.nytimes.com/svc/oembed/json/',
@@ -104,10 +105,12 @@ function getEmbedCode($url = "", $maxwidth = 320) {
     'speakerdeck.com' => 'https://speakerdeck.com/oembed.json',
     //'spotify.com' => 'https://embed.spotify.com/oembed/',
     'ted.com' => 'https://www.ted.com/talks/oembed.json',
+    'tiktok.com' => 'https://www.tiktok.com/oembed',
     'twitter.com' => 'https://publish.twitter.com/oembed',
     'ustream.tv' => 'http://www.ustream.tv/oembed',
     'vine.co' => 'https://vine.co/oembed.json',
     'vimeo.com' => 'https://vimeo.com/api/oembed.json',
+    'wordpress.com' => 'http://public-api.wordpress.com/oembed/',
     'youtube.com' => 'https://www.youtube.com/oembed'
   );
 
@@ -174,7 +177,7 @@ else:
 </span>
 <fieldset>
   <label for="uri">Enter URL:</label>
-  <input title="Enter URL" type="text" name="uri" id="uri" placeholder="URL from youtube, facebook, flickr, instagram..." autofocus />
+  <input title="Enter URL" type="text" name="uri" id="uri" placeholder="URL from youtube, tiktok, flickr, reddit..." autofocus />
   <button type="submit" class="button">Get Code</button>
 </fieldset>
 </form>
